@@ -7,8 +7,8 @@ L layer neural network and the output layer prediction is based on Logistic Regr
 
 #### Activation functions:
 
-Hidden layers -- Relu Function
-Output layer -- Sigmoid Function
+- Hidden layers -- Relu Function
+- Output layer -- Sigmoid Function
 
 These helper functions can be used to build a L-Layer neural network.
 
