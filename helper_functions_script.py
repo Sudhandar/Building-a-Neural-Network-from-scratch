@@ -11,8 +11,7 @@ def sigmoid(z):
     s -- sigmoid(z)
     """
     s = 1/(1+np.exp(-z))
-
-   return s
+    return s
 
 def relu(z):
     """
@@ -26,11 +25,11 @@ def relu(z):
     """
     r = np.maximum(z)
 
-   return r
+    return r
 
 
 
- def initialize_parameters_deep(layer_dims):
+def initialize_parameters_deep(layer_dims):
     """
     Arguments:
     layer_dims -- python list containing the dimensions of each layer in network
